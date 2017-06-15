@@ -1,2 +1,2 @@
 # docker-sandbox
-Sandbox for docker
+Sandbox for docker to do some experiments
