@@ -56,6 +56,5 @@ RUN apt-get install -y unifi
 # Run unifi-controller
 # CMD java -jar /opt/UniFi/lib/ace.jar start
 
-# Install and start monit to keep container alive for testing
-RUN apt-get install -y monit
-CMD /etc/init.d/monit start 
+# run shell to keep container alive for testing
+CMD  /bin/bash
